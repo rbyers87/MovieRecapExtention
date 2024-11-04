@@ -2,6 +2,12 @@
     "manifest_version": 3,
     "name": "Movie Recap Extension",
     "version": "1.0",
+    "icons": {
+      "16": "play16.png",
+      "48": "play48.png",
+      "128": "play128.png"
+    },
+    
     "description": "Tracks movie progress and provides recaps when resuming",
     "permissions": ["storage", "tabs", "activeTab"],
     "host_permissions": ["<all_urls>"],
